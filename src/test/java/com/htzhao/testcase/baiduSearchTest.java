@@ -19,6 +19,7 @@ public class baiduSearchTest {
     public void searchTest() throws InterruptedException {
         dr.get("https://www.baidu.com/");
         searchField.searchTheField(dr, "selenium");
+        System.out.println("hello java");
     }
 
     @AfterMethod
