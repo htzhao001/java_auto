@@ -17,6 +17,7 @@ public class baiduSearchTest {
 
     @Test
     public void searchTest() throws InterruptedException {
+        dr.get("https://www.baidu.com/");
         searchField.searchTheField(dr, "selenium");
     }
 
