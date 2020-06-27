@@ -1,9 +1,12 @@
 package com.htzhao.driver;
 
+import com.htzhao.CommonUtils.WriteLog;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+
+import java.util.logging.Handler;
 
 public class CommonDriver {
 
@@ -22,7 +25,7 @@ public class CommonDriver {
             // 火狐不用设置路径，默认的
             driver = new InternetExplorerDriver();
         } else {
-            System.out.println("传入浏览器名称" + browserName + "有误!请注意浏览器名均为小写");
+            System.out.println("传入浏览器名称" + browserName + "有误!请注意浏览器名均为小写。");
         }
         return driver;
     }

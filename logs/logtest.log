@@ -1,0 +1,5 @@
+[2020-06-27 20:32:20 - Level:INFO - class com.htzhao.CommonUtils.BasePage] -> 成功打开浏览器 : Chrome
+[2020-06-27 20:32:212 - Level:INFO - class com.htzhao.CommonUtils.BasePage] -> 成功访问： http://www.baidu.com/
+[2020-06-27 20:32:315 - Level:INFO - class com.htzhao.CommonUtils.BasePage] -> 元素 成功找到！
+[2020-06-27 20:32:592 - Level:INFO - class com.htzhao.CommonUtils.BasePage] -> 元素 成功找到！
+[2020-06-27 20:33:368 - Level:INFO - class com.htzhao.CommonUtils.BasePage] -> 浏览器退出！

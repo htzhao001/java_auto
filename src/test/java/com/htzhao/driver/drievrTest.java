@@ -10,6 +10,7 @@ public class drievrTest {
     @Test
     public void openTest() throws InterruptedException {
         WebDriver driver = CommonDriver.openBrowser("chrome");
+        driver.get("http://www.baidu.com/");
         Thread.sleep(5000);
         CommonDriver.closeBrowser();
     }
